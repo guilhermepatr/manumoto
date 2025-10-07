@@ -1,8 +1,6 @@
-import { View, Text, Button, StyleSheet } from "react-native";
+import { useLocalSearchParams } from "expo-router";
 import React from "react";
-import Constants from "expo-constants";
-import { useLocalSearchParams, useRouter } from "expo-router";
-import MotoCard from "@/components/moto-card";
+import { StyleSheet, Text, View } from "react-native";
 
 export default function _screen() {
   const { marca, nome, cilindrada, tipo } = useLocalSearchParams();
@@ -33,10 +31,11 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
   },
   title: {
-    fontSize: 22,
+    fontSize: 24,
     fontWeight: "bold",
     textAlign: "center",
     marginBottom: 20,
+    justifyContent: "center",
   },
   info: {
     fontSize: 18,
@@ -46,5 +45,16 @@ const styles = StyleSheet.create({
   empty: {
     textAlign: "center",
     color: "#888",
+  },
+  card: {
+    flex: 1,
+    backgroundColor: "#2196f3",
+    paddingVertical: 20,
+    marginBottom: 16,
+    marginHorizontal: 6,
+    borderRadius: 12,
+    alignItems: "center",
+    justifyContent: "center",
+    elevation: 2,
   },
 });

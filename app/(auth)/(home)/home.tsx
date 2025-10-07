@@ -9,7 +9,8 @@ export default function _screen() {
   const router = useRouter();
   return (
     <View style={styles.container}>
-      <Text>Home</Text>
+      <Text style={styles.title}>Bem vindo ao ManuMoto</Text>
+      <Text style={styles.subtitle}>O que vamos fazer hoje?</Text>
       <CustomButton
         title="Adicionar Moto"
         onPress={() => router.push("/(auth)/(home)/addMoto/addMoto")}
@@ -36,5 +37,20 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     padding: 16,
     marginTop: Constants.statusBarHeight,
+  },
+  title: {
+    justifyContent: "center",
+    textAlign: "center",
+
+    fontSize: 24,
+    fontWeight: "bold",
+    marginBottom: 16,
+  },
+  subtitle: {
+    paddingBottom: 100,
+    fontSize: 16,
+    color: "#666",
+    textAlign: "center",
+    marginBottom: 30,
   },
 });
