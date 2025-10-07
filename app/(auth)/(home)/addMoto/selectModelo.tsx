@@ -1,13 +1,13 @@
+import { useLocalSearchParams, useRouter } from "expo-router";
 import React, { useState } from "react";
 import {
-  View,
-  Text,
   FlatList,
-  TouchableOpacity,
   StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
 } from "react-native";
 import motos from "../../../../data/motos.json";
-import { useLocalSearchParams, useRouter } from "expo-router";
 
 export default function SelectModeloScreen() {
   const { marca } = useLocalSearchParams<{ marca: string }>();

@@ -1,11 +1,11 @@
-import { View, Text, Button, StyleSheet } from "react-native";
-import React from "react";
-import { StatusBar } from "expo-status-bar";
+import Logout from "@/components/logout";
 import {
   ActionSheetProvider,
   connectActionSheet,
 } from "@expo/react-native-action-sheet";
-import Logout from "@/components/logout";
+import { StatusBar } from "expo-status-bar";
+import React from "react";
+import { StyleSheet, Text, View } from "react-native";
 
 function _screen() {
   return (

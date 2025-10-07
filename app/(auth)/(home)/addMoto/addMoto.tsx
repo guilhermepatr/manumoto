@@ -1,8 +1,7 @@
-import React from "react";
-import { View, Text, StyleSheet } from "react-native";
-import { useRouter } from "expo-router";
-import Constants from "expo-constants";
 import CustomButton from "@/components/custom-button";
+import { useRouter } from "expo-router";
+import React from "react";
+import { StyleSheet, Text, View } from "react-native";
 import useNavigationExitOnBack from "../../../../hooks/useNavigationExitOnBack";
 
 export default function _screen() {

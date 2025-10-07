@@ -1,53 +1,165 @@
-# Welcome to your Expo app 👋
+# 🏍️ MotoCare - Gerenciador de Motos e Manutenções
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 📱 Sobre o Projeto
 
-## Get started
+O **MotoCare** é um aplicativo desenvolvido em **React Native** com **Expo** e **TypeScript**, que tem como objetivo auxiliar o usuário a **registrar e gerenciar informações da sua motocicleta**, incluindo **abastecimentos, manutenções e dados técnicos** do veículo.
 
-1. Install dependencies
+O app foi criado como atividade prática da disciplina de **Desenvolvimento Mobile**, para aplicar conceitos de:
 
-   ```bash
-   npm install
-   ```
+- Componentização com React
+- Hooks (`useState`, `useEffect`)
+- Navegação com **Expo Router**
+- Listagens com **FlatList**
+- Uso do **ActionSheet**
+- Estilização com **StyleSheet**
+- Persistência local (AsyncStorage – opcional)
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🚀 Funcionalidades
 
-In the output, you'll find options to open the app in a
+- Seleção da **marca e modelo da moto**
+- Visualização dos **dados técnicos** da motocicleta
+- Registro de **abastecimentos**
+- Registro de **manutenções**
+- Exibição de **relatórios resumidos**
+- Interface moderna e responsiva
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🧩 Estrutura das Telas
 
-## Get a fresh project
+| Tela                           | Descrição                                                                                    |
+| ------------------------------ | -------------------------------------------------------------------------------------------- |
+| **Home**                       | Exibe opções principais do app (Minha Moto, Abastecimento, Manutenção).                      |
+| **Seleção de Marca**           | Lista todas as marcas disponíveis com uma FlatList.                                          |
+| **Seleção de Modelo**          | Exibe os modelos da marca selecionada, enviando os parâmetros para a tela principal da moto. |
+| **Minha Moto**                 | Mostra as informações da moto escolhida (marca, modelo, cilindrada e tipo).                  |
+| **Abastecimento / Manutenção** | Formulários para registrar gastos, utilizando o ActionSheet para confirmar ações.            |
 
-When you're ready, run:
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- [Expo](https://expo.dev/)
+- [React Native](https://reactnative.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Expo Router](https://docs.expo.dev/router/introduction/)
+- [@expo/react-native-action-sheet](https://docs.expo.dev/versions/latest/sdk/actionsheet/)
+- [AsyncStorage (opcional)](https://react-native-async-storage.github.io/async-storage/)
+
+---
+
+## ⚙️ Como Executar o Projeto
+
+### 1️⃣ Clonar o repositório
 
 ```bash
-npm run reset-project
+git clone https://github.com/SEU-USUARIO/motocare.git
+cd motocare
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2️⃣ Instalar dependências
 
-## Learn more
+```bash
+yarn install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+ou
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npm install
+```
 
-## Join the community
+### 3️⃣ Criar o template base do projeto com Expo Router
 
-Join our community of developers creating universal apps.
+Se ainda não criou o projeto, use o comando:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+npx create-expo-app@latest motocare --template tabs --example with-router
+```
 
--npx expo install @react-native-picker/picker
-https://github.com/react-native-picker/picker
+> Isso cria o projeto já com o **Expo Router** configurado e abas de navegação prontas.
+
+### 4️⃣ Adicionar a ActionSheet
+
+```bash
+yarn add @expo/react-native-action-sheet
+```
+
+### 5️⃣ Executar o projeto
+
+```bash
+npx expo start
+```
+
+Abra o app no seu celular com o **Expo Go** ou em um **emulador Android/iOS**.
+
+---
+
+## 🧠 Hooks e Conceitos Aplicados
+
+- `useState` — para estados internos (ex.: seleção de marca e modelo)
+- `useEffect` — para carregar dados e sincronizar ações
+- `useLocalSearchParams` e `useRouter` — para passagem e leitura de parâmetros entre telas
+- `FlatList` — para exibir marcas e modelos
+- `ActionSheet` — para exibir opções de ação ao usuário
+- `StyleSheet` — para padronizar o layout e cores do app
+
+---
+
+## 🧭 Navegação
+
+O app utiliza o **Expo Router** com a seguinte estrutura de pastas:
+
+```
+app/
+ ├── (auth)/
+ │   ├── marca/
+ │   ├── modelo/
+ │   ├── moto/
+ │   ├── abastecimento/
+ │   └── manutencao/
+ ├── _layout.tsx
+ ├── index.tsx
+ └── ...
+```
+
+---
+
+## 🎨 Design System
+
+O aplicativo segue uma paleta inspirada em tons de azul e cinza:
+
+| Cor       | Descrição                       |
+| --------- | ------------------------------- |
+| `#2196f3` | Azul principal (botões e cards) |
+| `#3e8ef7` | Azul de destaque                |
+| `#f5f5f5` | Fundo claro                     |
+| `#333`    | Texto principal                 |
+
+---
+
+## 🖼️ Prints das Telas
+
+| Tela                  | Preview                                  |
+| --------------------- | ---------------------------------------- |
+| **Home**              | ![Home](./assets/screens/home.png)       |
+| **Selecionar Marca**  | ![Marcas](./assets/screens/marcas.png)   |
+| **Selecionar Modelo** | ![Modelos](./assets/screens/modelos.png) |
+| **Minha Moto**        | ![Moto](./assets/screens/moto.png)       |
+
+> Adicione os prints na pasta `assets/screens/` e ajuste os nomes conforme suas capturas.
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Guilherme Patrício Silva**  
+📚 Universidade Tecnológica Federal do Paraná — Curso de **Tecnologia em Sistemas para Internet**
+
+---
+
+## 🏁 Licença
+
+Este projeto foi desenvolvido para fins acadêmicos, sem fins comerciais.
