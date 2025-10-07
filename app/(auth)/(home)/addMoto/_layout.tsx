@@ -9,7 +9,7 @@ export default function _layout() {
         options={{ title: "Selecionar Marca", headerShown: false }}
       />
       <Stack.Screen
-        name="addMoto"
+        name="index"
         options={{ title: "Adicionar Moto", headerShown: false }}
       />
       <Stack.Screen
