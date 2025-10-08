@@ -1,7 +1,7 @@
 import { useActionSheet } from "@expo/react-native-action-sheet";
 import { useRouter } from "expo-router";
-import React, { useEffect, useState } from "react";
-import { Alert, Button } from "react-native";
+import React from "react";
+import { Button } from "react-native";
 
 export default function Logout() {
   const { showActionSheetWithOptions } = useActionSheet();
@@ -9,18 +9,6 @@ export default function Logout() {
   const destructiveButtonIndex = 1;
   const cancelButtonIndex = 0;
   const router = useRouter();
-
-  // estado para indicar se deve exibir o alerta
-  const [shouldAlert, setShouldAlert] = useState(false);
-
-  // useEffect para reagir quando shouldAlert mudar
-  useEffect(() => {
-    if (shouldAlert) {
-      Alert.alert("Logout", "Você saiu da conta com sucesso!");
-      router.push("/(auth)/(home)/home");
-      setShouldAlert(false); // reseta o estado
-    }
-  }, [shouldAlert]);
 
   const handleOpen = () => {
     showActionSheetWithOptions(
@@ -31,11 +19,15 @@ export default function Logout() {
       },
       (buttonIndex) => {
         if (buttonIndex === 1) {
-          setShouldAlert(true); // ativa o alerta via estado
+          router.push("/(auth)/(home)/home");
         }
+        console.log("Selected: ", buttonIndex);
       }
     );
   };
-
-  return <Button title="Open ActionSheet" onPress={handleOpen} />;
+  return (
+    <>
+      <Button title="Open ActionSheet" onPress={handleOpen} />
+    </>
+  );
 }
