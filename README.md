@@ -1,4 +1,4 @@
-# 🏍️ MotoCare - Gerenciador de Motos e Manutenções
+# 🏍️ ManuMoto - Gerenciador de Motos e Manutenções
 
 ## 📱 Sobre o Projeto
 
@@ -152,8 +152,9 @@ O aplicativo segue uma paleta inspirada em tons de azul e cinza:
 | **Selecionar Marca**  | ![Marcas](./assets/screens/marcas.png)   |
 | **Selecionar Modelo** | ![Modelos](./assets/screens/modelos.png) |
 | **Minha Moto**        | ![Moto](./assets/screens/moto.png)       |
+| **Profile**           | ![Moto](./assets/screens/profile.png)       |
+| **Profile Actions**   | ![Moto](./assets/screens/profileActionsSheet.png)       |
 
-> Adicione os prints na pasta `assets/screens/` e ajuste os nomes conforme suas capturas.
 
 ---
 
