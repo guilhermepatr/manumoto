@@ -12,7 +12,6 @@ O app foi criado como atividade prática da disciplina de **Desenvolvimento Mobi
 - Listagens com **FlatList**
 - Uso do **ActionSheet**
 - Estilização com **StyleSheet**
-- Persistência local (AsyncStorage – opcional)
 
 ---
 
@@ -35,7 +34,7 @@ O app foi criado como atividade prática da disciplina de **Desenvolvimento Mobi
 | **Seleção de Marca**           | Lista todas as marcas disponíveis com uma FlatList.                                          |
 | **Seleção de Modelo**          | Exibe os modelos da marca selecionada, enviando os parâmetros para a tela principal da moto. |
 | **Minha Moto**                 | Mostra as informações da moto escolhida (marca, modelo, cilindrada e tipo).                  |
-| **Abastecimento / Manutenção** | Formulários para registrar gastos, utilizando o ActionSheet para confirmar ações.            |
+| **Abastecimento / Manutenção** | Formulários para registrar gastos.            |
 
 ---
 
@@ -55,8 +54,8 @@ O app foi criado como atividade prática da disciplina de **Desenvolvimento Mobi
 ### 1️⃣ Clonar o repositório
 
 ```bash
-git clone https://github.com/SEU-USUARIO/motocare.git
-cd motocare
+git clone https://github.com/SEU-USUARIO/motocare.git](https://github.com/guilhermepatr/manumoto
+cd manumoto
 ```
 
 ### 2️⃣ Instalar dependências
@@ -92,6 +91,11 @@ yarn add @expo/react-native-action-sheet
 ```bash
 npx expo start
 ```
+ou
+```bash
+yarn start
+```
+
 
 Abra o app no seu celular com o **Expo Go** ou em um **emulador Android/iOS**.
 
