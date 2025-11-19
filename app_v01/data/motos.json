@@ -1,0 +1,251 @@
+[
+  {
+    "id": 1,
+    "marca": "Honda",
+    "modelos": [
+      { "nome": "CG 160 Start", "cilindrada": "162cc", "tipo": "Street" },
+      { "nome": "CG 160 Fan", "cilindrada": "162cc", "tipo": "Street" },
+      { "nome": "CG 160 Titan", "cilindrada": "162cc", "tipo": "Street" },
+      { "nome": "Biz 110i", "cilindrada": "109cc", "tipo": "Scooter" },
+      { "nome": "Biz 125", "cilindrada": "124cc", "tipo": "Scooter" },
+      { "nome": "Pop 110i", "cilindrada": "109cc", "tipo": "Street" },
+      { "nome": "CB 250 Twister", "cilindrada": "249cc", "tipo": "Street" },
+      { "nome": "XRE 190", "cilindrada": "184cc", "tipo": "Trail" },
+      { "nome": "XRE 300", "cilindrada": "291cc", "tipo": "Trail" },
+      { "nome": "NC 750X", "cilindrada": "745cc", "tipo": "Trail" },
+      { "nome": "CB 500F", "cilindrada": "471cc", "tipo": "Naked" },
+      { "nome": "CB 500X", "cilindrada": "471cc", "tipo": "Trail" },
+      { "nome": "CBR 500R", "cilindrada": "471cc", "tipo": "Sport" },
+      {
+        "nome": "Africa Twin 1100",
+        "cilindrada": "1084cc",
+        "tipo": "Adventure"
+      },
+      { "nome": "Hornet 750", "cilindrada": "755cc", "tipo": "Naked" }
+    ]
+  },
+  {
+    "id": 2,
+    "marca": "Yamaha",
+    "modelos": [
+      { "nome": "Factor 150", "cilindrada": "149cc", "tipo": "Street" },
+      { "nome": "Fazer 150 UBS", "cilindrada": "149cc", "tipo": "Street" },
+      { "nome": "Fazer FZ25", "cilindrada": "249cc", "tipo": "Street" },
+      { "nome": "XMAX 250", "cilindrada": "249cc", "tipo": "Scooter" },
+      { "nome": "Neo 125", "cilindrada": "125cc", "tipo": "Scooter" },
+      { "nome": "NMax 160", "cilindrada": "160cc", "tipo": "Scooter" },
+      { "nome": "MT-03", "cilindrada": "321cc", "tipo": "Naked" },
+      { "nome": "MT-07", "cilindrada": "689cc", "tipo": "Naked" },
+      { "nome": "MT-09", "cilindrada": "847cc", "tipo": "Naked" },
+      { "nome": "R3", "cilindrada": "321cc", "tipo": "Sport" },
+      { "nome": "R7", "cilindrada": "689cc", "tipo": "Sport" },
+      {
+        "nome": "Tracer 900 GT",
+        "cilindrada": "847cc",
+        "tipo": "Sport Touring"
+      },
+      { "nome": "Ténéré 250", "cilindrada": "249cc", "tipo": "Trail" },
+      { "nome": "Ténéré 700", "cilindrada": "689cc", "tipo": "Adventure" },
+      { "nome": "XTZ 150 Crosser", "cilindrada": "149cc", "tipo": "Trail" }
+    ]
+  },
+  {
+    "id": 3,
+    "marca": "Suzuki",
+    "modelos": [
+      { "nome": "Yes 125", "cilindrada": "125cc", "tipo": "Street" },
+      { "nome": "Intruder 125", "cilindrada": "125cc", "tipo": "Custom" },
+      { "nome": "GSX-S750", "cilindrada": "749cc", "tipo": "Naked" },
+      { "nome": "GSX-S1000", "cilindrada": "999cc", "tipo": "Naked" },
+      { "nome": "GSX-R1000", "cilindrada": "999cc", "tipo": "Sport" },
+      { "nome": "GSX-R750", "cilindrada": "750cc", "tipo": "Sport" },
+      { "nome": "Hayabusa", "cilindrada": "1340cc", "tipo": "Sport Touring" },
+      { "nome": "V-Strom 250", "cilindrada": "248cc", "tipo": "Trail" },
+      { "nome": "V-Strom 650XT", "cilindrada": "645cc", "tipo": "Trail" },
+      { "nome": "V-Strom 1000", "cilindrada": "1037cc", "tipo": "Adventure" },
+      { "nome": "V-Strom 1050XT", "cilindrada": "1037cc", "tipo": "Adventure" },
+      { "nome": "Burgman 125", "cilindrada": "124cc", "tipo": "Scooter" },
+      { "nome": "Burgman 400", "cilindrada": "400cc", "tipo": "Scooter" },
+      { "nome": "Katana", "cilindrada": "999cc", "tipo": "Sport" },
+      { "nome": "GS 500E", "cilindrada": "487cc", "tipo": "Street" }
+    ]
+  },
+  {
+    "id": 4,
+    "marca": "Kawasaki",
+    "modelos": [
+      { "nome": "Ninja 300", "cilindrada": "296cc", "tipo": "Sport" },
+      { "nome": "Ninja 400", "cilindrada": "399cc", "tipo": "Sport" },
+      { "nome": "Ninja 650", "cilindrada": "649cc", "tipo": "Sport" },
+      { "nome": "Ninja ZX-6R", "cilindrada": "636cc", "tipo": "Sport" },
+      { "nome": "Ninja ZX-10R", "cilindrada": "998cc", "tipo": "SuperSport" },
+      { "nome": "Z400", "cilindrada": "399cc", "tipo": "Naked" },
+      { "nome": "Z650", "cilindrada": "649cc", "tipo": "Naked" },
+      { "nome": "Z900", "cilindrada": "948cc", "tipo": "Naked" },
+      { "nome": "Z1000", "cilindrada": "1043cc", "tipo": "Naked" },
+      { "nome": "Versys 650", "cilindrada": "649cc", "tipo": "Trail" },
+      { "nome": "Versys 1000", "cilindrada": "1043cc", "tipo": "Adventure" },
+      { "nome": "Vulcan S", "cilindrada": "649cc", "tipo": "Custom" },
+      { "nome": "KLX 450R", "cilindrada": "449cc", "tipo": "Off-Road" },
+      { "nome": "KX 250", "cilindrada": "249cc", "tipo": "Motocross" },
+      { "nome": "KX 450", "cilindrada": "449cc", "tipo": "Motocross" }
+    ]
+  },
+  {
+    "id": 5,
+    "marca": "BMW",
+    "modelos": [
+      { "nome": "G 310 R", "cilindrada": "313cc", "tipo": "Street" },
+      { "nome": "G 310 GS", "cilindrada": "313cc", "tipo": "Trail" },
+      { "nome": "F 750 GS", "cilindrada": "853cc", "tipo": "Trail" },
+      { "nome": "F 850 GS", "cilindrada": "853cc", "tipo": "Trail" },
+      { "nome": "F 900 R", "cilindrada": "895cc", "tipo": "Naked" },
+      { "nome": "F 900 XR", "cilindrada": "895cc", "tipo": "Sport Touring" },
+      { "nome": "S 1000 R", "cilindrada": "999cc", "tipo": "Naked" },
+      { "nome": "S 1000 RR", "cilindrada": "999cc", "tipo": "SuperSport" },
+      { "nome": "R 1250 GS", "cilindrada": "1254cc", "tipo": "Adventure" },
+      {
+        "nome": "R 1250 GS Adventure",
+        "cilindrada": "1254cc",
+        "tipo": "Adventure"
+      },
+      { "nome": "R 1250 RT", "cilindrada": "1254cc", "tipo": "Touring" },
+      { "nome": "K 1600 GT", "cilindrada": "1649cc", "tipo": "Touring" },
+      { "nome": "K 1600 B", "cilindrada": "1649cc", "tipo": "Cruiser" },
+      {
+        "nome": "K 1600 Grand America",
+        "cilindrada": "1649cc",
+        "tipo": "Touring"
+      },
+      { "nome": "R nineT", "cilindrada": "1170cc", "tipo": "Custom" }
+    ]
+  },
+  {
+    "id": 6,
+    "marca": "Royal Enfield",
+    "modelos": [
+      { "nome": "Meteor 350", "cilindrada": "349cc", "tipo": "Custom" },
+      { "nome": "Classic 350", "cilindrada": "349cc", "tipo": "Custom" },
+      { "nome": "Bullet 350", "cilindrada": "346cc", "tipo": "Custom" },
+      { "nome": "Himalayan 411", "cilindrada": "411cc", "tipo": "Trail" },
+      { "nome": "Scram 411", "cilindrada": "411cc", "tipo": "Scrambler" },
+      { "nome": "Interceptor 650", "cilindrada": "648cc", "tipo": "Custom" },
+      {
+        "nome": "Continental GT 650",
+        "cilindrada": "648cc",
+        "tipo": "Cafe Racer"
+      },
+      { "nome": "Hunter 350", "cilindrada": "349cc", "tipo": "Street" },
+      { "nome": "Thunderbird 350X", "cilindrada": "346cc", "tipo": "Custom" },
+      { "nome": "Thunderbird 500X", "cilindrada": "499cc", "tipo": "Custom" },
+      { "nome": "Electra 350", "cilindrada": "346cc", "tipo": "Classic" },
+      { "nome": "Electra 500", "cilindrada": "499cc", "tipo": "Classic" },
+      { "nome": "Machismo 350", "cilindrada": "346cc", "tipo": "Custom" },
+      { "nome": "Machismo 500", "cilindrada": "499cc", "tipo": "Custom" },
+      {
+        "nome": "Bullet Trials 350",
+        "cilindrada": "346cc",
+        "tipo": "Scrambler"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "marca": "Dafra",
+    "modelos": [
+      { "nome": "Citycom 300i", "cilindrada": "278cc", "tipo": "Scooter" },
+      { "nome": "Cruisym 150", "cilindrada": "150cc", "tipo": "Scooter" },
+      { "nome": "Cruisym 300", "cilindrada": "278cc", "tipo": "Scooter" },
+      { "nome": "Next 250", "cilindrada": "249cc", "tipo": "Street" },
+      { "nome": "Apache RTR 200", "cilindrada": "197cc", "tipo": "Street" },
+      { "nome": "Apache RTR 160", "cilindrada": "159cc", "tipo": "Street" },
+      { "nome": "Horizon 150", "cilindrada": "150cc", "tipo": "Custom" },
+      { "nome": "Horizon 250", "cilindrada": "249cc", "tipo": "Custom" },
+      { "nome": "Zig 100", "cilindrada": "97cc", "tipo": "Street" },
+      { "nome": "Speed 150", "cilindrada": "149cc", "tipo": "Street" },
+      { "nome": "Speed 150 EFI", "cilindrada": "149cc", "tipo": "Street" },
+      { "nome": "Kansas 150", "cilindrada": "150cc", "tipo": "Custom" },
+      { "nome": "Kansas 250", "cilindrada": "250cc", "tipo": "Custom" },
+      { "nome": "Super 50", "cilindrada": "49cc", "tipo": "Cub" },
+      { "nome": "Riva 150", "cilindrada": "149cc", "tipo": "Street" }
+    ]
+  },
+  {
+    "id": 8,
+    "marca": "Ducati",
+    "modelos": [
+      { "nome": "Panigale V2", "cilindrada": "955cc", "tipo": "Sport" },
+      { "nome": "Panigale V4", "cilindrada": "1103cc", "tipo": "Sport" },
+      { "nome": "Panigale V4S", "cilindrada": "1103cc", "tipo": "Sport" },
+      { "nome": "Monster 797", "cilindrada": "803cc", "tipo": "Naked" },
+      { "nome": "Monster 821", "cilindrada": "821cc", "tipo": "Naked" },
+      { "nome": "Monster 1200", "cilindrada": "1198cc", "tipo": "Naked" },
+      { "nome": "Diavel 1260", "cilindrada": "1262cc", "tipo": "Cruiser" },
+      { "nome": "XDiavel", "cilindrada": "1262cc", "tipo": "Cruiser" },
+      { "nome": "Scrambler Icon", "cilindrada": "803cc", "tipo": "Scrambler" },
+      {
+        "nome": "Scrambler Desert Sled",
+        "cilindrada": "803cc",
+        "tipo": "Scrambler"
+      },
+      {
+        "nome": "Scrambler Café Racer",
+        "cilindrada": "803cc",
+        "tipo": "Scrambler"
+      },
+      { "nome": "Multistrada 950", "cilindrada": "937cc", "tipo": "Adventure" },
+      {
+        "nome": "Multistrada 1260",
+        "cilindrada": "1262cc",
+        "tipo": "Adventure"
+      },
+      { "nome": "Hypermotard 950", "cilindrada": "937cc", "tipo": "Supermoto" },
+      {
+        "nome": "SuperSport 950",
+        "cilindrada": "937cc",
+        "tipo": "Sport Touring"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "marca": "Harley-Davidson",
+    "modelos": [
+      { "nome": "Iron 883", "cilindrada": "883cc", "tipo": "Custom" },
+      { "nome": "Forty-Eight", "cilindrada": "1200cc", "tipo": "Custom" },
+      { "nome": "Street 750", "cilindrada": "749cc", "tipo": "Street" },
+      { "nome": "Street Rod", "cilindrada": "749cc", "tipo": "Street" },
+      { "nome": "Low Rider S", "cilindrada": "1868cc", "tipo": "Cruiser" },
+      { "nome": "Fat Boy 114", "cilindrada": "1868cc", "tipo": "Cruiser" },
+      {
+        "nome": "Heritage Classic 114",
+        "cilindrada": "1868cc",
+        "tipo": "Cruiser"
+      },
+      { "nome": "Breakout 114", "cilindrada": "1868cc", "tipo": "Cruiser" },
+      { "nome": "Road King", "cilindrada": "1746cc", "tipo": "Touring" },
+      {
+        "nome": "Road Glide Special",
+        "cilindrada": "1868cc",
+        "tipo": "Touring"
+      },
+      {
+        "nome": "Street Glide Special",
+        "cilindrada": "1868cc",
+        "tipo": "Touring"
+      },
+      { "nome": "Ultra Limited", "cilindrada": "1868cc", "tipo": "Touring" },
+      {
+        "nome": "Electra Glide Standard",
+        "cilindrada": "1746cc",
+        "tipo": "Touring"
+      },
+      {
+        "nome": "Pan America 1250",
+        "cilindrada": "1252cc",
+        "tipo": "Adventure"
+      },
+      { "nome": "Sportster S", "cilindrada": "1252cc", "tipo": "Sport Custom" }
+    ]
+  }
+]

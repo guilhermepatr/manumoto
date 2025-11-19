@@ -34,7 +34,7 @@ O app foi criado como atividade prática da disciplina de **Desenvolvimento Mobi
 | **Seleção de Marca**           | Lista todas as marcas disponíveis com uma FlatList.                                          |
 | **Seleção de Modelo**          | Exibe os modelos da marca selecionada, enviando os parâmetros para a tela principal da moto. |
 | **Minha Moto**                 | Mostra as informações da moto escolhida (marca, modelo, cilindrada e tipo).                  |
-| **Abastecimento / Manutenção** | Formulários para registrar gastos.            |
+| **Abastecimento / Manutenção** | Formulários para registrar gastos.                                                           |
 
 ---
 
@@ -91,11 +91,12 @@ yarn add @expo/react-native-action-sheet
 ```bash
 npx expo start
 ```
+
 ou
+
 ```bash
 yarn start
 ```
-
 
 Abra o app no seu celular com o **Expo Go** ou em um **emulador Android/iOS**.
 
@@ -146,15 +147,14 @@ O aplicativo segue uma paleta inspirada em tons de azul e cinza:
 
 ## 🖼️ Prints das Telas
 
-| Tela                  | Preview                                  |
-| --------------------- | ---------------------------------------- |
-| **Home**              | ![Home](./assets/screens/home.png)       |
-| **Selecionar Marca**  | ![Marcas](./assets/screens/marcas.png)   |
-| **Selecionar Modelo** | ![Modelos](./assets/screens/modelos.png) |
-| **Minha Moto**        | ![Moto](./assets/screens/moto.png)       |
-| **Profile**           | ![Moto](./assets/screens/profile.png)       |
-| **Profile Actions**   | ![Moto](./assets/screens/profileActionsSheet.png)       |
-
+| Tela                  | Preview                                           |
+| --------------------- | ------------------------------------------------- |
+| **Home**              | ![Home](./assets/screens/home.png)                |
+| **Selecionar Marca**  | ![Marcas](./assets/screens/marcas.png)            |
+| **Selecionar Modelo** | ![Modelos](./assets/screens/modelos.png)          |
+| **Minha Moto**        | ![Moto](./assets/screens/moto.png)                |
+| **Profile**           | ![Moto](./assets/screens/profile.png)             |
+| **Profile Actions**   | ![Moto](./assets/screens/profileActionsSheet.png) |
 
 ---
 
